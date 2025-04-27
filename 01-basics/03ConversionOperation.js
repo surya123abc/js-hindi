@@ -45,3 +45,6 @@ let StringNumber=String(someNumber);
 console.log(StringNumber);
 console.log(typeof(StringNumber));
 
+let rishi=3;
+let negvalue=-rishi;
+console.log(negvalue);
