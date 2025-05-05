@@ -40,11 +40,4 @@ console.log(VValue);// NaN   , in case of string it also gives NaN because it ca
 // 1=> true, 0=>false,  ""=>false ,  "suryansee"=>true
 
 
-let someNumber=33;
-let StringNumber=String(someNumber);
-console.log(StringNumber);
-console.log(typeof(StringNumber));
-
-let rishi=3;
-let negvalue=-rishi;
-console.log(negvalue);
+//
