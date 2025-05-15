@@ -16,7 +16,16 @@ console.log(otherNumber3.toPrecision(3));// Returns a string containing a number
 //  or fixed-point notation with a specified number of digits.
 const hundreds=100000000;
 console.log(hundreds.toLocaleString());//output--- 100,000,000  separated with comma  [Converts a number to a string by using the current or specified locale].
-console.log(hundreds.toLocaleString()('en-IN'));
+console.log(hundreds.toLocaleString('en-IN'));
 
+
+//+++++++++++++++++++++ Maths+++++++++++
+
+console.log(Maths);
+console.log(Maths.min(4));
+console.log(Maths.abs(-4));
+console.log(Math.ceil(4.2));
+console.log(Math.floor(4.9));
+console.log(Math.round(4.6));
 
 
