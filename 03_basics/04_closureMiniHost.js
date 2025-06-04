@@ -14,5 +14,27 @@ one();
 
 
 if(true){
-    const userName="Rishi"
+    const userName="Rishi";
+    if(userName=="Rishi"){
+        const website="youtube";
+       // console.log(userName+website);
+    }
+    //console.log(website);//  error occurs due to out of scope
 }
+//  console.log(userName);//   error occurs due to out of scope
+
+
+
+//++++++++++++++++++++++++++interesting+++++++++++++++++
+console.log(addOne(5))// it will execute properly
+function addOne(num){
+    return num + 1;
+}
+//addOne(5);
+
+
+addTwo(5);// we cant declare it
+const addTwo=function(num){
+    return num +2;
+}
+//addTwo(5);
