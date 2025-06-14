@@ -61,10 +61,29 @@
     //}
 
 
-    const map=new Map();
-map.set('1', "sana");
-map.set('2', "raya");
-map.set('3', "naya");
-map.set('4', "kaya");
-map.set('1', "sana");
-console.log(map);
+    //const map=new Map();
+//map.set('1', "sana");
+//map.set('2', "raya");
+//map.set('3', "naya");
+//map.set('4', "kaya");
+//map.set('1', "sana");
+//console.log(map);
+
+//for (const key in map) {
+       // console.log(key);
+
+//}// not running bcz MAP is not iterable
+
+////  FOREACH LOOP  ----> TAKES CALLBACK
+
+//const coding=["js","rb","cpp","java"];
+//coding.forEach(function (item){
+    //console.log(item);
+//});
+
+//const system=["js","rb","cpp","java"];
+//system.forEach( (item)=>{   // forEach(index,item. arr)
+ //   console.log(item);
+//});
+
+
