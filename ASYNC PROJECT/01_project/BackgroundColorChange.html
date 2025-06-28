@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+</head>
+<body>
+    <div style="background-color:yellow; width:30%; height: 30%; ">
+    <nav >
+      <button id="first"><a href="/"aria-current>Home</a></button>
+      <button id="second"><a href="https://www.youtube.com/@Surya-RRRPvlog">YouTube Channel</a></button>
+
+    </nav>
+    </div>
+    <div id="my-div">
+
+    <h1>Start shuld change the background-color every second</h1>
+
+         <button id="start">Start</button>
+         <button id="stop">Stop</button>
+
+</div>
+    
+</body>
+
+
+
+<script>
+
+               
+        document.querySelector('#start').addEventListener('click',function(){
+
+            const perform=function(){
+                const div =document.querySelector('#my-div');
+                div.style.backgroundColor="blue";
+                console.log("Blue Acheive");
+
+}
+       const task=function(){
+                const div =document.querySelector('#my-div');
+                div.style.backgroundColor="red";
+                console.log("change in red hurray!");
+
+       }
+                setInterval(perform, 6000);
+                setInterval(task,1000);
+       
+
+
+
+});
+      
+
+</script>
+
+
+</html>

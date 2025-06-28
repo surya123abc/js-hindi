@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy</title>
+</head>
+<body>
+    <h1> Jai Balaji Hanuman</h1>
+    <!--  <button type="button" id="button">Stop</button>  -->
+      <button id="stop">Stop</button>
+
+      <script>
+/// IT also call API, It is a part of Browser not core part of JS
+
+///**************  learn also clearTimeOut(), and clearInterval() functions for INTERVIEWS ITS VERY IMPORTANT  +++++++++++++++++++++++++++++++++++++++++
+      
+        const saySurya=function(){
+       
+        console.log("Hy Suryansee Singh Parihar");
+
+      }
+      const changeText=function(){
+            document.querySelector('h1').innerHTML="PawanPutra Hanuman ji ki jay"
+      }
+        //setTimeout(saySurya,5000);
+       
+       const changeMe= setTimeout(changeText,2000);
+
+       //clearTimeout(changeMe); // it stops setTimeOut from executing the code
+
+       document.querySelector('#stop').addEventListener('click', function(){
+                 
+                     clearTimeout(changeMe);
+                     console.log("STOPPED");
+
+       });
+
+
+
+      </script>
+    
+</body>
+</html>

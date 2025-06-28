@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second</title>
+</head>
+<body>
+    <h1> Hello Suryansee Singh Parihar</h1>
+    <!--  <button type="button" id="button">Stop</button>  -->
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+
+      <script>
+
+        //const sayDate=function(num){
+        //    console.log(num, Date.now());
+       // }
+        //setInterval(sayDate, 1000);
+           
+//      const interve=setInterval(sayDate,1000,"111");
+        //clearInterval(interve);
+        const printing=document.querySelector('#start').addEventListener('click',function(){
+            intervalId=setInterval(function(){
+                    console.log("papa i love you");
+            },1000);
+
+            
+        });
+
+       // setInterval(printing, 1000);
+
+        const refuse=document.querySelector('#stop').addEventListener('click', function(){
+
+             clearInterval(intervalId);
+
+        });
+
+
+
+
+      </script>
+    
+</body>
+</html>
